@@ -1,0 +1,11 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0099.jpg,xe bị cắt ở góc dưới phải,added,Chỉ khoanh phần đuôi và đèn hậu còn nhìn thấy trong ảnh theo quy tắc xe bị cắt mép
+1,frame_0107.jpg,vệt đèn pha dài trên mặt đường,deleted,"Vệt sáng là ánh đèn phản chiếu, không phải thân xe, không khoanh"
+1,frame_0107.jpg,xe sát mép trên ảnh,deleted,AI khoanh nhầm biển báo phát sáng ở góc trên phải thành xe theo guideline không gán nhãn biển báo
+1,frame_0182.jpg,xe tối sát mép trái ảnh,edited,Kéo khung ôm sát thân xe và gương chiếu hậu theo hướng dẫn GUIDELINE_LABEL
+1,frame_0326.jpg,hai xe sát nhau làn trong,edited,Tách thành hai khung riêng vì hai thân xe tuy gần nhưng còn phân biệt được
+1,frame_0369.jpg,xe tải lớn cuối ảnh,accepted,"Khung AI đã ôm đúng thân xe từ đèn đầu đến đèn hậu, giữ nguyên"
+1,frame_0380.jpg,xe nhỏ chỉ còn hai chấm đèn xa,added,Vẫn khoanh vì nhìn thấy rõ hai điểm sáng đối xứng đặc trưng của xe
+1,frame_0187.jpg,ba xe đoàn sát nhau làn phải,edited,Tách thành ba khung riêng biệt theo quy tắc hai xe sát nhau vẽ hai box riêng
+1,frame_0270.jpg,xe bị che khuất bởi xe tải phía trước,edited,Chỉ khoanh phần thân xe còn thấy được theo quy tắc xe bị che một phần
+1,frame_0312.jpg,ánh đèn phản chiếu dọc làn trái,deleted,Vệt sáng dài trên mặt đường không phải xe theo guideline không gán nhãn ánh đèn phản chiếu
